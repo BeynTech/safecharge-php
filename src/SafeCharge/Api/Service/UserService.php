@@ -133,4 +133,13 @@ class UserService extends BaseService
 
         return $this->requestJson($params, 'getUserDetails.do');
     }
+
+    /**
+     * @return UserPaymentOptions
+     * @throws \SafeCharge\Api\Exception\ConfigurationException
+     */
+    public function paymentOptions()
+    {
+        return new UserPaymentOptions($this->client);
+    }
 }
