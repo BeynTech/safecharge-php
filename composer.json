@@ -1,5 +1,5 @@
 {
-  "name": "safecharge-international/safecharge-php",
+  "name": "BeynTech/safecharge-php",
   "type": "library",
   "description": "A PHP client library for accessing SafeCharge API",
   "keywords": [
